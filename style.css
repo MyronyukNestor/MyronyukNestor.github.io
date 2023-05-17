@@ -3,6 +3,7 @@
 }
 
 body {
+  color: #0b4654;
   font-family: "Athiti", sans-serif;
 }
 
@@ -29,9 +30,9 @@ header {
 }
 
 .brendname {
+  color: inherit;
   font-weight: 600;
   font-size: 28px;
-  color: #0b4654;
 }
 
 img {
@@ -52,5 +53,6 @@ li {
 }
 
 a {
+  color: inherit;
   text-decoration: none;
 }
