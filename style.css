@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Athiti", sans-serif;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+header {
+  padding: 40px 32px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.logo-and-brendname {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo {
+  width: 63px;
+  height: 56px;
+}
+
+.brendname {
+  font-weight: 600;
+  font-size: 28px;
+  color: #0b4654;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 42px;
+}
+
+li {
+  font-weight: 500;
+  list-style: none;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+}
