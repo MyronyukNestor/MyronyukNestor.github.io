@@ -3,8 +3,8 @@
 }
 
 body {
+  font-family: 'Athiti', sans-serif;
   color: #0b4654;
-  font-family: "Athiti", sans-serif;
 }
 
 .wrapper {
@@ -37,7 +37,6 @@ header {
 
 img {
   width: 100%;
-  height: 100%;
 }
 
 ul {
@@ -55,4 +54,64 @@ li {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+main {
+  display: flex;
+  padding-top: 90px;
+  padding-inline: 32px;
+}
+
+.main-text {
+  width: 50%;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: #1c1e52;
+  margin-bottom: 22px;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: black;
+  margin-bottom: 32px;
+}
+
+.know-more-button {
+  color: white;
+  background: linear-gradient(180deg, #34e06f 0%, #07b464 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 2px 4px rgba(255, 255, 255, 0.25),
+    inset 0px -2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 15px 60px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.main-img {
+  width: 667px;
+  margin-top: -135px;
+  padding-right: 20px;
+}
+
+.made {
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+span {
+  color: #07B464;
 }
