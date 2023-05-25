@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: 'Athiti', sans-serif;
+  font-family: "Athiti", sans-serif;
   color: #0b4654;
 }
 
@@ -16,6 +16,7 @@ header {
   padding: 40px 32px;
   justify-content: space-between;
   display: flex;
+  align-items: center;
 }
 
 .logo-and-brendname {
@@ -39,10 +40,17 @@ img {
   width: 100%;
 }
 
-ul {
+.menu-list {
   display: flex;
   align-items: center;
   gap: 42px;
+}
+
+.hamburger {
+  width: 24px;
+  height: 24px;
+  background-image: url("img/burger.png");
+  display: none;
 }
 
 li {
@@ -64,19 +72,21 @@ main {
 
 .main-text {
   width: 50%;
+  font-family: "Inter", sans-serif;
 }
 
 h1 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 48px;
   line-height: 64px;
   color: #1c1e52;
   margin-bottom: 22px;
+  width: 84%;
 }
 
-p {
-  font-family: 'Inter', sans-serif;
+.main-text-par {
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
@@ -113,5 +123,99 @@ p {
 }
 
 span {
-  color: #07B464;
+  color: #07b464;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.second-img {
+  width: 33px;
+  height: 33px;
+  margin: 0 auto;
+}
+
+.main-text-two {
+  font-family: "Athiti", sans-serif;
+  color: #0b4654;
+  padding-top: 16px;
+  width: 100%;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.main-text-par-two {
+  padding-top: 14px;
+  padding-bottom: 56px;
+  padding-inline: 14%;
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .menu-list {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  main {
+    align-items: center;
+    flex-direction: column;
+    padding-top: 0;
+  }
+
+  .main-text {
+    width: 100%;
+    padding-inline: 11%;
+  }
+
+  h1 {
+    width: 100%;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  .main-text-par {
+    padding-inline: 14%;
+    text-align: center;
+  }
+
+  .know-more-button {
+    display: block;
+    margin-top: 10px;
+    margin: 0 auto;
+    width: 102px;
+  }
+
+  .main-img {
+    width: 100%;
+    margin: 0;
+    margin-inline: 10%;
+    margin-top: 20px;
+  }
+
+  .second-img {
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .main-text-two {
+    padding-top: 16px;
+    font-size: 25px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .main-text-par-two {
+    padding-top: 14px;
+    padding-inline: 14%;
+    text-align: center;
+    line-height: 16px;
+  }
 }
