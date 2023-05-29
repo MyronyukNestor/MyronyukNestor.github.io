@@ -1,4 +1,96 @@
-* {
+.wrapper {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.general {
+  gap: 50px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo {
+  width: 215px;
+  height: 270px;
+  border-radius: 200px;
+}
+
+.text {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 70px;
+}
+
+.work-and-about {
+  margin-top: 40px;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-content: center;
+  gap: 140px;
+  font-size: 45px;
+  margin-right: 10px;
+  font-weight: 200;
+
+}
+
+.work {
+  margin-right: 40px;
+}
+
+.general-two {
+  /* gap: 10px; */
+  margin-top: 40px;
+  margin-left: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.company {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  margin-left: 50px;
+}
+
+.data  {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  margin-left: 50px;
+}
+
+.list {
+  margin-right: 30px;
+  gap: 10px;
+  display: flex;
+  list-style: none;
+  margin-left: 50px;
+  
+}
+
+.b {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: #E4DCDC;
+  color: white;
+}
+
+.about-two {
+  margin-right: 55px;
+  max-width: 300px;
+}
+
+
+
+
+/* * {
   margin: 0;
 }
 
@@ -218,4 +310,4 @@ span {
     text-align: center;
     line-height: 16px;
   }
-}
+} */
